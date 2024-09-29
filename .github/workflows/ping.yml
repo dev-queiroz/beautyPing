@@ -3,7 +3,8 @@ name: Request Salons API
 on:
   schedule:
     - cron: "*/5 * * * *"
-
+  workflow_dispatch:
+  
 jobs:
   request-api:
     runs-on: ubuntu-latest
