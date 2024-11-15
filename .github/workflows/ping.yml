@@ -10,6 +10,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Send GET request to Salons API
+      - name: Send GET request to API on Render
         run: |
-          curl -X GET https://beautex-backend.onrender.com/
+          curl -X GET https://api-34m7.onrender.com
